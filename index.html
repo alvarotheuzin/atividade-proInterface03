@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <title>Formulario</title>
+</head>
+<body id="bodyindex">
+<a href="./form.html"><c>Pagina Inicial</c></a>
+<br />
+<br />
+
+  <!--Formulario -->
+    <form action="#">
+<fieldset class="fieldset">
+  <h2>Formulário</h2>
+
+    <br/>
+      <fieldset>
+          <legend><strong> <c>Dados Pessoais</c> </strong></legend>
+        
+        <label><b>Nome:</b> <input type="text" name="nome" placeholder="Insira o nome completo" size="40" required/></label>
+
+        <label><b>Data de Nascimento:</b> <input type="date" name="datanasc" required/></label>
+
+        <br/>
+        <br/>
+        <b>Selecione um genero:</b>
+        <input type="radio" name="genero" value="1"/> <b>Feminino</b>
+        <input type="radio" name="genero" value="2"/> <b>Masculino</b>
+        <input type="radio" name="genero" value="3"/> <b>Outros</b>
+
+    </fieldset>
+
+    <br/>
+
+    <fieldset>
+      <legend><strong><c>Opções</c></strong></legend>
+
+        <p><b><c>1-</c> Qual genero de jogo você gosta?</b></p>
+        <select name="generojogo_html" required>
+          <option value="" selected disabled>Selecione...</option>
+          <option value="Ação">Ação</option>
+          <option value="Aventura">Aventura</option>
+          <option value="RPG">RPG</option>
+          <option value="Simulação">Simulação</option>
+          <option value="Puzzle">Puzzle</option>
+          <option value="Esporte">Esporte</option>
+          <option value="Estrategia">Estrategia</option>
+
+        </select>
+
+      <p><b><c>2-</c> Que tipo de jogo você prefere?</b></p>
+        <input type="checkbox" name="plantaforma"/>
+        <a>Jogos para PC</a>
+
+        <input type="checkbox" name="plantaforma"/>
+        <a>Jogos de Console</a>
+        
+        <input type="checkbox" name="plantaforma"/>
+        <a>Jogos Portáteis</a>
+      </p>
+
+      
+      <p><b><c>3-</c> Xbox ou Playstation?</b></p>
+        <input type="radio" name="console" value="1"/><b>Xbox</b>
+        <input type="radio" name="console" value="2"/><b>Playstation</b>
+        <input type="radio" name="console" value="3"/><b>Não tenho preferencia</b>
+
+        <p><b><c>4-</c> Qual genero de personagem você escolhe nos jogos quando tem opção?</b></p>
+        <input type="radio" name="genero_personagem" value="1"/><b>Masculino</b>
+        <input type="radio" name="genero_personagem" value="2"/><b>Feminino</b>
+      </fieldset>
+      <br/>
+
+      <fieldset>
+      <legend><strong> <c>Mensagem </c></strong></legend>
+        <p><b><c>5-</c> Quais jogos você mais joga com frequencia?</b></p>
+        <textarea rows="4" cols="30 " required></textarea>
+
+        <p><b><c>6-</c> Indique jogos</b></p>
+        <textarea rows="4" cols="30 " required></textarea>
+      <br/>
+
+      </fieldset> 
+
+      <p><b>Email:</b> <input type="email" name="email" required/></p>
+
+      <br/>
+      <input type="reset" name="reset" required/>
+      <input type="submit" name="Enviar" required/>
+      <br/>
+      
+</fieldset> 
+</form>
+        
+         
+        
+</body>
+</html>

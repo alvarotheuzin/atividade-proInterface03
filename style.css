@@ -1,0 +1,78 @@
+#bodyindex{
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+#bodypag1{
+    background-color: rgb(5, 5, 5);
+}
+
+.fieldset{
+    background-color: black;
+    border-width: medium;
+
+}
+
+h2{
+    color: red;
+    font-size: 24px;
+    text-align: center
+}
+
+h1{
+    color: red;
+    font-size: 60px;
+    text-align: center
+    
+}
+
+a{
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+}
+
+input {
+    color: black;
+  accent-color: #ff0000;
+}
+
+b{
+    color: #ffffff;  
+}
+
+c{
+    color: red;
+}
+cc{
+    color: black;
+}
+  
+.image-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 70px;
+    font-weight: bold;
+}
+.formulario-text {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.credito-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
